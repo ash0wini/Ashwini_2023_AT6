@@ -5,3 +5,7 @@ class DataValidator:
             if item.isdigit() and int(item) > 0:
                 valid_numbers.append(int(item))
         print (valid_numbers)
+
+class ListPrinter:
+    def print_list(self, valid_numbers):
+        print("Validated Numbers:", valid_numbers)
