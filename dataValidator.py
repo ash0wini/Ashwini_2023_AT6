@@ -4,4 +4,4 @@ class DataValidator:
         for item in input_list:
             if item.isdigit() and int(item) > 0:
                 valid_numbers.append(int(item))
-        return valid_numbers
+        print (valid_numbers)
